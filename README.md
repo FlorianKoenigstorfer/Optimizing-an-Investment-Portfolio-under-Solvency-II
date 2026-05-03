@@ -19,7 +19,7 @@ The objective function uses the sample counterpart of expected surplus computed 
 - LP formulation of the surplus-maximization problem with Solvency II shocks as constraints.
 - Toy model (3 bonds, 3 scenarios, 2 interest-rate shocks) used to illustrate the setup and check binding constraints.
 - Stability analysis showing that increasing the number of simulated economic scenarios (`N`) from 3 to 200 stabilizes the optimal allocation.
-- Mortality shock scenario showing that a budget increase from 1000 to 3000 restores feasibility.
+- Life-risk shock scenario showing that a budget increase from 1000 to 3000 restores feasibility; see errata for the mortality/longevity interpretation.
 - Mixed bond/equity portfolio analysis showing how the bond/stock split shifts as the budget grows.
 
 The script runs end-to-end and prints/plots the results referenced in the thesis (toy model setup, optimal allocations, binding constraints, mortality-shock results, and the bond/stock-vs-budget plots).
